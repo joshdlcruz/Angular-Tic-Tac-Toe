@@ -1,0 +1,19 @@
+{
+  "hosting": [
+    {
+      "target": "Tic-Tac-Toe",
+      "public": "dist/Tic-Tac-Toe",
+      "ignore": [
+        "firebase.json",
+        "**/.*",
+        "**/node_modules/**"
+      ],
+      "rewrites": [
+        {
+          "source": "**",
+          "destination": "/index.html"
+        }
+      ]
+    }
+  ]
+}

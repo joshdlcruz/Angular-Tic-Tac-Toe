@@ -1,0 +1,11 @@
+{
+  "targets": {
+    "angularfire-adbd0": {
+      "hosting": {
+        "Tic-Tac-Toe": [
+          "angularfire-adbd0"
+        ]
+      }
+    }
+  }
+}
